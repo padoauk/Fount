@@ -79,16 +79,16 @@ Semantics
 --------------------------------------------------------------------
 
 ### Type
-    **B**: bit  array (MSB first)
-    **C**: Byte array
-    **n**: 16bit unsigned, network byte order
-    **N**: 32bit unsigned, network byte order
-    **s>**: 16bit signed,  network byte order
-    **l>**: 32bit signed,  network byte order
-    **q>**: 64bit signed,  network byte order
-    **g**:  32bit float,   network byte order
-    **G**:  64bit float,   network byte order
-    **TypeID**: Custom type definition ID (see Custom Type Definition csv)
+    B: bit  array (MSB first)
+    C: Byte array
+    n: 16bit unsigned, network byte order
+    N: 32bit unsigned, network byte order
+    s>: 16bit signed,  network byte order
+    l>: 32bit signed,  network byte order
+    q>: 64bit signed,  network byte order
+    g:  32bit float,   network byte order
+    G:  64bit float,   network byte order
+    TypeID: Custom type definition ID (see Custom Type Definition csv)
 
 ### Size
 Cell size of the cell in bytes (default) or bits (with suffix of `b`)  (*1)
