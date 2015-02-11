@@ -1,0 +1,15 @@
+! Test01_F
+#
+# type F
+#
+#nm,  ty, sz, Bpos, bpos, const_value] [, comment]
+ff00,  g,   ,     ,     ,   0
+ff01,  g,   ,     ,     ,   1
+ff02,  g,   ,     ,     ,  -1
+ff03,  g,   ,     ,     ,   3.14
+ff04,  g,   ,     ,     ,  -3.14
+ff05,  G,   ,     ,     ,   0
+ff06,  G,   ,     ,     ,   1
+ff07,  G,   ,     ,     ,  -1
+ff08,  G,   ,     ,     ,   3.14
+ff09,  G,   ,     ,     ,  -3.14

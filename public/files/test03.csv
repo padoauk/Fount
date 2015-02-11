@@ -1,0 +1,11 @@
+! Test03
+
+# <name>, <type>,        <sz>,   <Bpos>, <bpos> [, const_value] [, comment]
+  c00,      C,              8,        0,      0  , 0x00
+  ser,   Sequence32Cell,   4B,        3,
+  fill00,   C,             1B,         ,         , 0x00
+  time,     Timestamp00,  13B,         ,
+  fill01,   C,             1B,         ,         ,   0x01
+  vsize0,   VarSizeTest      ,         ,         ,                 , # variable size custom cell test
+  fill02,   C,             1B,         ,         ,   0x01
+  pkt_size, ByteSize16,    2B,        1,         ,                 ,

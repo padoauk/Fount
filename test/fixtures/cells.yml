@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cell_type: MyString
+  seq: MyString
+  size: MyString
+  byte_pos: 1
+  bit_pos: 1
+  val: MyString
+  packet_id: 
+
+two:
+  name: MyString
+  cell_type: MyString
+  seq: MyString
+  size: MyString
+  byte_pos: 1
+  bit_pos: 1
+  val: MyString
+  packet_id: 

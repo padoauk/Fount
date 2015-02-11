@@ -1,0 +1,41 @@
+<h1>Listing cells</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Cell type</th>
+      <th>Seq</th>
+      <th>Size</th>
+      <th>Byte pos</th>
+      <th>Bit pos</th>
+      <th>Val</th>
+      <th>Packet</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cells.each do |cell| %>
+      <tr>
+        <td><%= cell.name %></td>
+        <td><%= cell.cell_type %></td>
+        <td><%= cell.seq %></td>
+        <td><%= cell.size %></td>
+        <td><%= cell.byte_pos %></td>
+        <td><%= cell.bit_pos %></td>
+        <td><%= cell.val %></td>
+        <td><%= cell.packet.id %></td>
+        <td><%= link_to 'Show', cell %></td>
+        <td><%= link_to 'Edit', edit_cell_path(cell) %></td>
+        <td><%= link_to 'Destroy', cell, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Cell', new_cell_path %> <%= link_to 'Edit this Packet', edit_packet_path(@packet) %> <%= link_to 'List All Packets', packets_path %>

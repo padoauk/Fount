@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name_space: MyString
+  name: MyString
+  version: MyString
+  is_active: false
+  period: MyString
+
+two:
+  name_space: MyString
+  name: MyString
+  version: MyString
+  is_active: false
+  period: MyString

@@ -1,0 +1,29 @@
+! Test01
+#
+# basic types
+#
+#<name>, <type>,      <sz>, <Bpos>, <bpos> [, const_value] [, comment]
+c00,     C,            8,         , 0,        0x00,
+c01,     C,            8,         ,  ,        0x01
+c02,     C,           2B,         , 0,        0x0203,
+c03,     C,           4B,         , 0,        0x02030405,
+c04,     B,            4,         , 0,        0x4,
+c05,     B,            4,       .., 4,        0x5, the same byte position as c04
+c06,     B,            2,         , 0,        0x1, If byte pos is blank, placed at the next byte (of the previous)
+c07,     B,            6,         , 0,        0x1, If byte pos is blank, placed at the next byte (of the previous)
+c08,     n,             ,         ,  ,     0xffff,  2 Byte unsigned
+c09,     C,             ,         ,  ,       0x00,
+c10,     N,             ,         ,  , 0xfffefdfc,  4 Byet unsigned
+c11,    s>,             ,         ,  ,          -1, 2 Byte signed
+c12,     C,             ,         ,  ,        0x00,
+c13,    l>,             ,         ,  ,         -16, 4 Byte signed
+c14,     C,             ,         ,  ,        0x00,
+c15,    q>,             ,         ,  ,          -0, 8 Byte signed
+c16,     C,             ,         ,  ,        0x00,
+c17,     g,             ,         ,  ,        3.14,
+c18,     C,             ,         ,  ,        0x00,
+c19,     G,             ,         ,  ,        3.14,
+c20,     C,             ,         ,  ,      0xffff,
+
+
+

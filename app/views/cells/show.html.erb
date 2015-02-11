@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cell.name %>
+</p>
+
+<p>
+  <strong>Cell type:</strong>
+  <%= @cell.cell_type %>
+</p>
+
+<p>
+  <strong>Seq:</strong>
+  <%= @cell.seq %>
+</p>
+
+<p>
+  <strong>Size:</strong>
+  <%= @cell.size %>
+</p>
+
+<p>
+  <strong>Byte pos:</strong>
+  <%= @cell.byte_pos %>
+</p>
+
+<p>
+  <strong>Bit pos:</strong>
+  <%= @cell.bit_pos %>
+</p>
+
+<p>
+  <strong>Val:</strong>
+  <%= @cell.val %>
+</p>
+
+<p>
+  <strong>Packet:</strong>
+  <%= @cell.packet %>
+</p>
+
+<%= link_to 'Edit', edit_cell_path(@cell) %> |
+<%= link_to 'Back', packet_cells_path(@cell.packet_id) %>

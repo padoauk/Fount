@@ -1,0 +1,14 @@
+! Test02
+#
+# include
+#
+#<name>, <type>, <size>, <byte_pos>, <bit_pos> [, const_value] [, comment]
+< public/files/header00.csv
+d00,     C,  8, , , 0x00
+d01,     C,  8, , , 16
+d02,     C,  8, , , 0x01
+time,    Timestamp00, 9B, ,
+d03,     C,  8, , , 0x02
+d04,     C,  8, , , 0x02
+serial,  Sequence32Cell, 4B, ,
+

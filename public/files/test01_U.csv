@@ -1,0 +1,13 @@
+! Test01_U
+#
+# type U
+#
+
+#nm,  ty, sz, Bpos, bpos, const_value] [, comment]
+uu00, C,    ,     ,    0, 0x01
+uu01, C,  3B,     ,     , 0x020304
+uu02, n,    ,     ,    1, 256
+uu04, N,    ,     ,    1, 0x80ff0201
+# The following is NOT allowd. Such array definition is allowed only for 'B' and 'C'
+#uu03, n,  6B,     ,    1, 0x080008010802
+

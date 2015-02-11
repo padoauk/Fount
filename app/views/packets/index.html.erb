@@ -1,0 +1,36 @@
+<h1>Listing packets</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name space</th>
+      <th>Name</th>
+      <th>Version</th>
+      <th>Is active</th>
+      <th>Period</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @packets.each do |packet| %>
+      <tr>
+        <td><%= packet.name_space %></td>
+        <td><%= packet.name %></td>
+        <td><%= packet.version %></td>
+        <td><%= packet.is_active %></td>
+        <td><%= packet.period %></td>
+        <td><%= link_to 'Show', packet %></td>
+        <td><%= link_to 'Edit', edit_packet_path(packet) %></td>
+        <td><%= link_to 'Destroy', packet, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= link_to 'Cells list', packet_cells_path(packet.id)  %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Packet', new_packet_path %>

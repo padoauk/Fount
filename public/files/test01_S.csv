@@ -1,0 +1,12 @@
+! Test01_S
+#
+# type S
+#
+#nm,  ty, sz, Bpos, bpos, const_value] [, comment]
+ss00, s>,   ,     ,     , -1
+ss01, s>,   ,     ,     ,  1
+ss02, l>,   ,     ,     , -1
+ss03, l>,   ,     ,     ,  1
+ss04, q>,   ,     ,     , -1
+ss05, q>,   ,     ,     ,  1
+

@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name space:</strong>
+  <%= @packet.name_space %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @packet.name %>
+</p>
+
+<p>
+  <strong>Version:</strong>
+  <%= @packet.version %>
+</p>
+
+<p>
+  <strong>Is active:</strong>
+  <%= @packet.is_active %>
+</p>
+
+<p>
+  <strong>Period:</strong>
+  <%= @packet.period %>
+</p>
+
+<%= link_to 'Edit', edit_packet_path(@packet) %> |
+<%= link_to 'Back', packets_path %>
